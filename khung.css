@@ -1,0 +1,139 @@
+body{
+    background-image: linear-gradient(0,rgb(159,209,228),rgb(240,248,251));
+    background-attachment: fixed;
+    color: black;
+    margin: 0px;
+}
+#divI{
+    margin-bottom: 2px;}
+
+#div2{
+    float: right;
+    width: 50%;
+    height: 60%;
+    text-align: center;
+}
+
+#div1{
+
+   float: left;
+   width: 50%;
+   height: 60%;
+   text-align: center;
+}
+article{
+    width: 75%;
+    height: 560px;
+    float: right;
+    text-align: center;
+    
+}
+iframe{
+    width: 90%;
+    height: 80%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#ktx1, #ktx2{
+    width: 75%;
+    height: 75%;
+    
+}
+    
+
+nav{
+    background: #58b6c0;
+    width: 20%;
+    border: 1 solid #58b6c0;
+    border-radius: 12px;
+    height: 560px;
+ 
+}
+li.chinh{
+    list-style: none;
+    margin: 60px;
+    font-size: 20px;
+    margin-left: 1px;
+    width: 200px;
+    height: 50px;
+    padding-top: 25px;
+    background: #333;
+    text-align: center;
+    border-radius: 12px;
+    border: 5px solid #fff;
+    text-transform: capitalize;
+}
+header ul.noiquy{
+    position: absolute;
+    background-color: rgb(86, 73, 57);
+    list-style: none;
+    top: 400px;
+    left: 200px;
+    width: 200px;
+    display: none;
+}
+header ul>li.chinh:hover ul.noiquy{
+    display: block;
+    
+}
+
+header ul.noiquy>li.phu{
+    padding: 0px;
+    border-bottom: 1px solid #fff;
+    
+
+   
+
+}
+
+h2{
+    margin-top: 40px;
+    margin-right: 15px;
+    float: right; 
+}
+nav img{
+    width: 100px;
+}
+.boxxx{
+
+    width: 100px;
+}
+
+button{
+    margin: 20px;
+    height: 100px;
+    background: rgb(52, 90, 90);
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+a:hover{
+    color: rgb(196, 137, 20);
+}
+.footer4{
+    column-count: 3;
+    background: rgb(47, 45, 45);
+    color: rgb(197, 208, 218);
+}
+.footer4>div.ftt3>ul li {
+    list-style: none;
+    margin: 10px;
+}
+.footer4>div.ftt1>ul li {
+    list-style: none;
+    margin: 10px;
+}
+.footer4>div.ftt2>ul li {
+    list-style: none;
+    margin: 10px;
+}
+.ftt1,.ftt2,.ftt3{
+    flex: 1;
+    padding: 20px;
+}

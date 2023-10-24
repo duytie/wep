@@ -1,0 +1,21 @@
+li.mucchinh{
+    text-align: center;
+    list-style: none;  
+
+}
+ol{
+    text-align: left;
+
+}
+div{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+li{
+    margin: 5px;
+   text-align: left;
+   margin-left: 50px;
+    
+}

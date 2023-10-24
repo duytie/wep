@@ -1,0 +1,54 @@
+
+#div1{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#div2{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+#div3, #div4{
+    width: 60%;
+    margin-left: 15%;
+    margin-right: 25%;
+    text-align: center;
+    left: 50%;
+}
+
+
+
+#div5{
+    width: 40%;
+    float: left;
+    left: 10%;
+}
+#div6{
+    width: 40%;
+    height: 132px;
+    float: right;
+}
+li.mucchinh{
+    text-align: center;
+    list-style: none;  
+}
+
+ol{
+    text-align: left;
+}
+li{
+    margin: 5px;
+   text-align: left;
+   margin-left: 50px;
+    
+}
+
+p{
+    font-weight: bold;
+    
+}
+#noinhan{
+    list-style: none;
+    
+}

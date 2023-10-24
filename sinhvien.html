@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sinhvien.css" class="">
+    <script>
+
+    </script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500&display=swap');
+.font{
+    font-size: 18px;
+    color: rgb(214, 214, 206);
+}
+</style>
+<body>
+    <table>
+        <tr>
+           <td rowspan="2">
+            <div>
+                
+                <nav class="toolbar">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/385453005_710055573885298_8461251358463856383_n.png?_nc_cat=103&ccb=1-7&_nc_sid=aee45a&_nc_ohc=SOUFsRuHmhMAX9QSJf2&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTimTQ-FuZyVogijQeACfA0g98dtpZfjj8Vc5zosflycQ&oe=6544936D" alt="">
+                    <h2>quản lý ký túc xá</h2>
+                    <ul>
+                        <li><a href="trangchuql.html">trang chủ</a></li>
+                        <li><a href="sinhvien.html">sinh viên</a></li>
+                        <li><a href="quanlyphongban.html">phòng ban</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+           </td>
+           <td class="boxxx">
+                <h1 id="chill">TÌM KIẾM SINH VIÊN </h1>
+            </td>
+            <td style="width: 100px;"></td>
+            
+        </tr>
+        <tr>
+            <td>
+                <table class="romtable">
+                    <tr>
+                      <td>
+                        <div class="input-group1">
+                          <label for="name">Họ tên:</label>
+                          <input type="text" id="name" required>
+                        </div>
+                        <div class="input-group2">
+                          <label for="student-id">Mã sinh viên:</label>
+                          <input type="text" id="student-id" required>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="search-button">
+                          <button onclick="findStudent()">Tìm kiếm</button>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="in">
+                            <div id="result"></div>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+            </td>
+        </tr>
+        <footer>
+            <tr>
+                <td colspan="6">
+                    <div class="footer4">
+                        <div class="ftt1">
+                            
+                            <ul>
+                                <li> <span class="font">Thông tin cần biết</span></li>
+                                <li><a href="">Nội quy</a></li>
+                                <li> <a href="">Hướng dẫn đăng kí phòng</a></li>
+                                <li> <a href="">Hướng dẫn thanh toán</a></li>
+                            </ul>
+                        </div>
+                        <div class="ftt2">
+                            <ul>
+                                <li><span class="font">Website khác</span></li>
+                                <li><a href="">Trang chủ</a></li>
+                                <li><a href="">Nhà trường điện tử</a></li>
+                                <li><a href="">Văn phòng quản lý điện tử</a></li>
+                            </ul>
+                        </div>
+                        <div class="ftt3">
+                            <ul>
+                                <li><span class="font">Liên hệ</span></li>
+                                <li> <a href="">Facebook</a></li>
+                                <li><a href="">Youtobe</a></li>
+                                <li> <a href="">Google</a></li>
+                            </ul>
+                        </div>
+                        
+                </td>
+            </tr>
+          </footer>
+    </table>
+    </div>
+    <script src="sinhvien.js"> </script>
+</body>
+</html>

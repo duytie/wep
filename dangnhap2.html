@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500&display=swap');
+.font{
+    font-size: 18px;
+    color: rgb(214, 214, 206);
+}
+body{
+    background-image: linear-gradient(0,rgb(159,209,228),rgb(240,248,251));
+    color: black;
+    margin: 0 auto;
+    background-image: url("367628314_1463453241162983_4535166030805111598_n.jpg");
+}
+body table{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    background: #58b6c0;
+    width: 300px;
+    border: 1 solid #58b6c0;
+    border-radius: 12px;
+    height: 560px;
+ 
+}
+.dangnhap{
+    /* background-image: url("367628314_1463453241162983_4535166030805111598_n.jpg"); */
+    width: 50%;
+    height: 70%;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    float:right;
+    top:15%;
+    right: 25%;
+    position: absolute;
+}
+h1{
+    font-family: 'Chivo', sans-serif;
+    text-shadow: 2px 2px 2px #464040;
+}
+.box1{
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.box2 .mail{
+    height: 50px;
+    width: 60%;
+    border: none;
+    border-radius:100px;
+    outline: none;
+    padding: 0px 50px;
+    margin-bottom: 30px;
+    font-size:20px
+}
+.box3 .mail2{
+    height: 50px;
+    width: 60%;
+    border: none;
+    border-radius:100px;
+    padding: 0px 50px;
+    margin-bottom: 20px;
+    font-size:20px;
+}
+.box4{
+    display: flex;
+    font-size:17px;
+    margin-left: 16%;
+}
+
+
+button:active{
+    font-size: 10px;
+}
+
+button{
+    margin-left: 50%;
+    height: 50px;
+    background: rgb(73, 214, 214);
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+
+</style>
+<body>
+            <div class="dangnhap">
+                <div class="box1">
+                    <h1>ĐĂNG NHẬP</h1>
+                </div>
+                <form id="login-form">
+                    <div class="box2">
+                        <input type="text" class="mail" id="username" pattern="\d{9}" placeholder="Mã sinh viên" required maxlength="9">
+                    </div>
+                    <div class="box3">
+                        <input type="password" class="mail2" id="password" placeholder="Mật khẩu" required>
+                    </div>
+                    <div class="box4">
+                        <input type="checkbox" class="checkbox" id="memorize" required>
+                        <lable for="chk">ghi nhớ</lable>
+                    </div>
+                    <div class="box5">
+                        <button w3-button w3-black  type="submit">ĐĂNG NHẬP</button>
+                    </div>
+                </form>
+            </div>
+    <script>
+        var loginForm = document.getElementById("login-form");
+        var logoutContainer = document.getElementById("dangnhap");
+        loginForm.addEventListener("submit", function (e) {
+            e.preventDefault();
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            var memorize = document.getElementById("memorize").value;
+
+        if (username !="" && password !="" && memorize !="") {
+            alert("dang nhap thanh cong")
+             window.location.href="trangchusv.html"
+        } else {
+            alert("Đăng nhập thất bại. Vui lòng kiểm tra tên người dùng và mật khẩu.");
+        }
+    });
+    </script>
+</body>
+</html>
+

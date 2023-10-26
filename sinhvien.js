@@ -48,7 +48,7 @@ function findStudent() {
       cells[j].style.textAlign = "left";
     }
   }
-  if (name === "Nguyễn Văn B" && studentId === "2212312324") {
+  else if (name === "Nguyễn Văn B" && studentId === "2212312324") {
     document.getElementById("result").innerHTML = `
       <p>Thông tin của Đỗ Duy Tiến:</p>
       <table>
